@@ -1,0 +1,93 @@
+﻿<html >
+<head>
+<title>Online Video Downloading</title>
+
+<link href="slider.css" rel="stylesheet" type="text/css" />
+<link href="http://fonts.googleapis.com/css?family=Tangerine" rel="stylesheet" type="text/css" />
+<style>
+h1 {
+font-family: 'Tangerine', serif;
+font-size: 48px;
+}
+</style>
+
+</head>
+
+<body background="images/ad.jpg" >
+<a href="homepg.html"> <img src="logo.jpg" alt="Logo" width="250" height="180" align=left> </a>	<div id="templatemo_background_section_top">
+
+	<div id="logo pic">
+    	<div class="templatemo_container">
+		
+        	<div id="templatemo_header">
+				<div id="templatemo_logo_section">          
+
+					<h1><b>Online video downloading</b></h1>
+				</div>
+                <div id="templatemo_search_box">
+	               <!-- <form method="post">
+    	            	<input name="searchme" type="text" id="textfield" required value=""/>
+        	            <input type="submit" name="Search" value="" alt="Search" id="button" title="Search" />
+					</form>   -->
+                </div>
+         	</div><!-- end of headder -->
+                
+    		<div id="templatemo_menu_panel">
+            
+    			<div id="templatemo_menu_section">
+                
+            		<ul>
+		                <li><a href="adhomepg.html"  class="current">Home</a></li>
+        		        <li><a href="add.html">Add Video</a></li>
+		                <li><a href="delete.php">Delete Video</a></li> 
+						<li><a href="adlogout.php">Logout</a></li>                        
+		            </ul> 
+                    <br> <br><br><br> <br><br><br> 
+
+				</div>
+
+<h1 align=center><u>Add Video</u></h1>
+
+<form method="POST" action="add.php">
+
+<font size=5>Name:</font> <input type="text" name="name" required >
+
+   <br><br>
+<font size=5>Keywords:</font> <input type="text" name="key" required>
+   <br><br>
+<font size=5>Category:
+<select name="cat">
+  <option value="movie">Movie</option>
+  <option value="tv">Tv Show</option>
+  <option value="funny">Funny</option>
+  <option value="song">Songs</option>
+  <option value="education">Education</option>
+</select>
+   <br><br>
+<font size=5>Description:</font> <input type="text" name="desc" required>
+   <br><br>
+ <font size=5>  Type:
+   <input type="radio" name="type" value="paid" >Paid
+   <input type="radio" name="type" value="unpaid">Unpaid
+</font>
+   <br><br>
+<font size=5>Amount:</font> <input type="text" name="amount" >
+   <br><br>
+<font size=5>Please choose a file:</font>
+ <input name="uploaded" type="file" required/> 
+ 
+   <br><br>
+   <input type="submit" NAME=submit value="Add Video">
+
+   <br><br>   <br><br>
+</form>
+                
+		    </div> <!-- end of menu -->
+            
+		</div><!-- end of container-->
+        
+	</div><!-- end of templatemo_background_section_top-->
+
+
+</body>
+</html>
